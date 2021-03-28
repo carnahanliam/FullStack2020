@@ -1,5 +1,10 @@
-import React from 'react'
+import React from "react";
 
-const PersonDetails = ({ person }) => <div>{person.name} {person.number}</div>
+const PersonDetails = ({ person, deletePerson }) => {
+  <div>
+    {person.name} {person.number}
+    <button onClick={deletePerson}>Delete</button>
+  </div>;
+};
 
-export default PersonDetails
+export default PersonDetails;
