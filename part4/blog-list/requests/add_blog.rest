@@ -2,8 +2,8 @@ POST http://localhost:3003/api/blogs
 Content-Type: application/json
 
 {
-  "title": "Bloggy Blog", 
+  "title": "globBlog", 
   "author": "Liam Carnahan", 
-  "url": "bloggyblog.com",
-  "likes": 12
+  "url": "whoop.com",
+  "likes": 3
 }
