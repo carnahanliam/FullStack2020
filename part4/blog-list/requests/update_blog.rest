@@ -1,0 +1,10 @@
+PUT http://localhost:3003/api/blogs/60b6c513199e67385a1a53aa
+Content-Type: application/json
+
+{
+  "title": "globBlog", 
+  "author": "Liam Carnahan", 
+  "url": "whoop.com",
+  "likes": 39,
+  "id": "60b6c513199e67385a1a53aa"
+}
